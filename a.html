@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+  <head> 
+      <title>CAF Charts Main Padge</title>
+     <script src="http://d3js.org/d3.v3.min.js"></script>  
+  </head>
+
+
+
+
+  <body>
+    <style type = "text/css">
+      p1{
+        front-size: 120px;
+        font-weight: bold;
+        background-color: blue;
+        color: white;
+      }
+    </style>      
+        <h1>A real-time visualization of Perftest result</h1>
+        
+        <p1>This website include two products:</p1>
+        <ul>
+          <li><a href = "a.html">CAF Charts</a></li>
+          <li>CMX Charts</li>
+        </ul>
+
+      <button onclick="buttonCAF()"> CAF </button>
+      <button onclick="buttonCMX()"> CMX </button>
+      <p id = "caforcmx"></p >
+
+
+      <script>
+        function buttonCAF(){
+          document.getElementById("caforcmx").innerHTML = "CAF Chart1";
+        }
+        function buttonCMX(){
+          document.getElementById("caforcmx").innerHTML = "CMX Chart1";
+        }         
+      </script>
+
+
+  </body>
+
+</html>
